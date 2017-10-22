@@ -2,7 +2,7 @@
 <title>Aplikasi Download</title>
 <body>
 <?php
-  $konek = mysqli_connect("localhost","root","","upload");
+  $konek = mysqli_connect("localhost","root","","dbstbi");
 
   $query = "SELECT * FROM upload ORDER BY id_upload DESC";
   $hasil = mysqli_query($konek, $query);

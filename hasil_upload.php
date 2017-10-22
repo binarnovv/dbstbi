@@ -1,3 +1,4 @@
+ <a href="hasil_tokenisasi.php"> LIHAT TABEL </a>
  <?php
 // Baca lokasi file sementar dan nama file dari form (fupload)
 include('class.pdf2text.php');

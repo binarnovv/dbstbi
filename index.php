@@ -26,7 +26,7 @@ if(isset($_POST['kata'])){
 <br/>
 <br/>
 <a href="hitungvektor.php" style="background-color:yellow">Hitung Vektor</a> - <a href="hitungbobot.php" style="background-color:yellow">Hitung Bobot</a>
-- <a href="query.php" style="background-color:yellow">Hitung Query</a>
+- <a href="query.php" style="background-color:yellow">Hitung Query</a> - <a href="querytf_tampilan.php" style="background-color:yellow">Hitung Query TF</a>
 
 </body>
 </html>

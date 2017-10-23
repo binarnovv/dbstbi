@@ -1,4 +1,3 @@
-
 <?php
 ////
 function hitungsim($query) {
@@ -104,7 +103,7 @@ $host='localhost';
 $user='root';
 $pass='';
 $database='dbstbi';
-$keyword=$_POST[keyword];;
+$keyword=$_POST['keyword'];
 $conn=mysql_connect($host,$user,$pass);
 mysql_select_db($database);
 $resCache = mysql_query("SELECT *  FROM tbcache WHERE Query = '$keyword' ORDER BY Value DESC");
